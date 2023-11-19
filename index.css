@@ -1,8 +1,50 @@
+:root {
+    --black: #070001;
+    --blue: #1C2347;
+    --red: #E75C70;
+    --lightblue: #9DAAD4;
+    --white: #EEEEEE;
+    text-align: center;
+  
+}
+
 body {
     margin: 0;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+                                                
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    background: var(--blue);
+    padding: 30px;
+}
+
+.counterbg {
+    background-color: var(--black);
+}
+
+h2 {
+    color: var(--red) ;
+    font-size: 90px;
+    margin: 20px;
+}
+
+h3 {
+    color: var(--white) ;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+button {
+    background: var(--blue);
+    border: 1px solid var(--lightblue);
+    color: var(--lightblue);
+    font-size: 18px;
+    width: 45px;
+    height: 45px;
+
 }

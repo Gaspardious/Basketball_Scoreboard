@@ -1,15 +1,47 @@
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <div class="container">
+
+
             <div>
-                <h3>HOME</h3>
+                <div>
+                    <h3>HOME</h3>
+                </div>
+                <div class="counterbg">
+                    <h2 id="count1">0</h2>
+                </div>
+                <div>
+                    <button id="homescore1" onclick="increment()">+1</button>
+                    <button id="homescore2" onclick="increment2()">+2</button>
+                    <button id="homescore3" onclick="increment3()">+3</button>
+                </div>
             </div>
+
+
+
+
+
             <div>
-                <h3>GUEST</h3>
+                <div>
+                   <h3>GUEST</h3>
+                </div>
+            <div  class="counterbg">
+                <h2 id="count2">0</h2>
             </div>
+                 <div>
+                    <button id="guestscore1" onclick="increment4()">+1</button>
+                    <button id="guestscore2" onclick="increment5()">+2</button>
+                    <button id="guestscore3" onclick="increment6()">+3</button>
+                </div>
+            </div>
+
+
+
         </div>
         <script src="index.js"></script>
     </body>
