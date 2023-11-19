@@ -8,12 +8,10 @@ function increment () {
     count1.textContent = homecount
 }
 
-
 function increment2 () {
     homecount += 2
     count1.textContent = homecount
 }
-
 
 function increment3 () {
     homecount += 3
