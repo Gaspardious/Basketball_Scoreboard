@@ -36,4 +36,6 @@ function increment6 () {
 function resetscore () {
     count1.textContent = 0
     count2.textContent = 0
+    homecount = 0
+    guestcount = 0
 }
