@@ -46,5 +46,21 @@ button {
     font-size: 18px;
     width: 45px;
     height: 45px;
+}
 
+.reset {
+    display: flex;
+    justify-content: center;
+    background: #1C2347;
+    padding: 10px;
+}
+
+.resetbtn {
+  width: 150px;
+  color: var(--white);
+}
+
+button:hover {
+    scale: 1.1;
+    color: var(--white);
 }

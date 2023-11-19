@@ -32,3 +32,8 @@ function increment6 () {
     guestcount += 3
     count2.textContent = guestcount
 }
+
+function resetscore () {
+    count1.textContent = 0
+    count2.textContent = 0
+}
